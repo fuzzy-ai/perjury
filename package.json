@@ -16,7 +16,7 @@
   "bin": "./bin/perjury.js",
   "scripts": {
     "lint": "eslint bin/*.js lib/*.js test/*.js",
-    "test": "node test/standalone.js && node bin/perjury.js test/test-*.* && (check-node-version --node '< 7.10.1' --quiet || node bin/perjury.js test/atest-*.js)",
+    "test": "npm run lint && node test/standalone.js && node bin/perjury.js test/test-*.* && (check-node-version --node '< 7.10.1' --quiet || node bin/perjury.js test/atest-*.js)",
     "test-coverage": "nyc -r lcov npm test"
   },
   "directories": {
