@@ -2,6 +2,32 @@
 
 Perjury adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
 
+## 1.1.4 - 2018-04-27
+
+### Fixed
+
+* Fix `package-lock.json` being incorrect
+
+## 1.1.3 - 2018-04-27
+
+### Changed
+
+* Remove Coveralls support since this module is just an alias now
+* Run tests on Node 10
+
+## 1.1.2 - 2018-04-27
+
+### Changed
+
+* This module is now an alias for `vows@^1.0.0-alpha.1`, which is based on the Perjury codebase instead of the (old, legacy) Vows codebase - see the Vows changelog for change from `perjury@1.1.1`
+
+## 1.1.1 - 2018-02-01
+
+### Changed
+
+* Run tests on Node 9
+* Update dependencies (in particular: move from `coffee-script` to `coffeescript`)
+
 ## 1.1.0 - 2017-11-06
 
 ### Changed
